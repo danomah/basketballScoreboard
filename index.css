@@ -8,8 +8,9 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin: 25px auto;
     border: 2px solid #9AADB8;
+    width: 768px;
 }
 
 h3{
