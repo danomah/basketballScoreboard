@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1B244A;
+    color: #FFF;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    border: 2px solid #9AADB8;
+}
+
+h3{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.scoreDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #F94F6D;
+    font-weight: 500;
+    font-size: 200%;
+    height: 75px;
+    margin: 15px 0;
+}
+        
+button {
+    font-family: 'Orbitron', sans-serif;  
+    background-color: #1B244A;
+    cursor: pointer;
+    color: #9AADB8;
+    border: 1px solid #9AADB8;
+    border-radius: 5px;
+}
+
+button:focus {
+    outline: 1px solid #F94F6D;
+    outline-offset: 2px;
+    color: #1B244A;
+    background-color: #9AADB8;
+}
+
+button:hover {
+    color: #1B244A;
+    background-color: #9AADB8;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#newGameBtn {
+    padding: 5px 10px;
+}
