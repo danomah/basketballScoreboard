@@ -39,6 +39,7 @@ button {
     color: #9AADB8;
     border: 1px solid #9AADB8;
     border-radius: 5px;
+    margin-bottom: 25px;
 }
 
 button:focus {
